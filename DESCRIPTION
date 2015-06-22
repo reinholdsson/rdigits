@@ -1,0 +1,11 @@
+Package: rdigits
+Type: Package
+Title: An R wrapper for the nvidia digits api
+Version: 0.1
+Date: 2015-06-22
+Author: Thomas Reinholdsson
+Maintainer: Thomas Reinholdsson <reinholdsson@gmail.com>
+Description: ...
+Depends: httr, jsonlite, pbapply
+License: What license is it under?
+LazyData: TRUE
