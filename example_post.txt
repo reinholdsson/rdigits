@@ -1,0 +1,114 @@
+Content-Type: multipart/form-data; boundary=---------------------------28240930219331359681624550524
+Content-Length: 1235641
+
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="csrf_token"
+
+None
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="resize_channels"
+
+3
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="encoding"
+
+png
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="resize_width"
+
+256
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="resize_height"
+
+256
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="resize_mode"
+
+squash
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="folder_train"
+
+
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="folder_pct_val"
+
+25
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="folder_pct_test"
+
+0
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="textfile_train_images"; filename="digits_image_train.txt"
+Content-Type: text/plain
+
+/media/reinholdsson/data/datasets/bukowskis/object_data/181753/images/9130553_fullscreen.jpg	117
+/media/reinholdsson/data/datasets/bukowskis/object_data/191462/images/9134819_fullscreen.jpg	1853
+/media/reinholdsson/data/datasets/bukowskis/object_data/472751/images/8852901_fullscreen.jpg	1768
+/media/reinholdsson/data/datasets/bukowskis/object_data/474780/images/8868654_fullscreen.jpg	1488
+/media/reinholdsson/data/datasets/bukowskis/object_data/476900/images/8887900_fullscreen.jpg	327
+/media/reinholdsson/data/datasets/bukowskis/object_data/479669/images/9400775_fullscreen.jpg	2929
+/media/reinholdsson/data/datasets/bukowskis/object_data/480082/images/8898018_fullscreen.jpg	1663
+/media/reinholdsson/data/datasets/bukowskis/object_data/480263/images/8870728_fullscreen.jpg	2827
+/media/reinholdsson/data/datasets/bukowskis/object_data/480381/images/8879187_fullscreen.jpg	1558
+/media/reinholdsson/data/datasets/bukowskis/object_data/483155/images/8884995_fullscreen.jpg	1107
+/media/reinholdsson/data/datasets/bukowskis/object_data/486920/images/8896757_fullscreen.jpg	588
+/media/reinholdsson/data/datasets/bukowskis/object_data/487821/images/9045991_fullscreen.jpg	1558
+/media/reinholdsson/data/datasets/bukowskis/object_data/487824/images/9045992_fullscreen.jpg	1799
+/media/reinholdsson/data/datasets/bukowskis/object_data/487875/images/8897718_fullscreen.jpg	1886
+/media/reinholdsson/data/datasets/bukowskis/object_data/488553/images/8896714_fullscreen.jpg	375
+/media/reinholdsson/data/datasets/bukowskis/object_data/488683/images/8933993_fullscreen.jpg	448
+/media/reinholdsson/data/datasets/bukowskis/object_data/488710/images/8902058_fullscreen.jpg	448
+/media/reinholdsson/data/datasets/bukowskis/object_data/491703/images/8965505_fullscreen.jpg	193
+/media/reinholdsson/data/datasets/bukowskis/object_data/492238/images/9106586_fullscreen.jpg	4
+/media/reinholdsson/data/datasets/bukowskis/object_data/492472/images/9371840_fullscreen.jpg	1516
+/media/reinholdsson/data/datasets/bukowskis/object_data/495267/images/8927097_fullscreen.jpg	1348
+/media/reinholdsson/data/datasets/bukowskis/object_data/495284/images/8927210_fullscreen.jpg	2842
+/media/reinholdsson/data/datasets/bukowskis/object_data/693317/images/9636496_fullscreen.jpg	2900
+/media/reinholdsson/data/datasets/bukowskis/object_data/693412/images/9637864_fullscreen.jpg	371
+/media/reinholdsson/data/datasets/bukowskis/object_data/693592/images/9637153_fullscreen.jpg	1799
+/media/reinholdsson/data/datasets/bukowskis/object_data/693781/images/9638201_fullscreen.jpg	1016
+/media/reinholdsson/data/datasets/bukowskis/object_data/694150/images/9640355_fullscreen.jpg	1764
+/media/reinholdsson/data/datasets/bukowskis/object_data/694218/images/9640310_fullscreen.jpg	1764
+/media/reinholdsson/data/datasets/bukowskis/object_data/694238/images/9639741_fullscreen.jpg	1604
+/media/reinholdsson/data/datasets/bukowskis/object_data/694239/images/9639753_fullscreen.jpg	1968
+/media/reinholdsson/data/datasets/bukowskis/object_data/694240/images/9639697_fullscreen.jpg	1941
+/media/reinholdsson/data/datasets/bukowskis/object_data/694348/images/9640662_fullscreen.jpg	2383
+/media/reinholdsson/data/datasets/bukowskis/object_data/695044/images/9642579_fullscreen.jpg	2811
+
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="textfile_val_folder"
+
+
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="textfile_shuffle"
+
+1
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="textfile_labels_file"; filename="digits_image_labels.txt"
+Content-Type: text/plain
+
+NA
+1
+3
+9
+19
+37
+77
+81
+97
+27856
+
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="method"
+
+textfile
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="dataset_name"
+
+new_job2
+-----------------------------28240930219331359681624550524
+Content-Disposition: form-data; name="create-dataset"
+
+Create
+-----------------------------28240930219331359681624550524--
+

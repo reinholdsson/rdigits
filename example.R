@@ -31,7 +31,7 @@ body <- list(
   folder_pct_test = '0',
   textfile_val_folder = '',
   textfile_shuffle = '1',
-  "create-dataset" = 'Create'
+  'create-dataset' = 'Create'
 )
 
 r <- POST(url, body = body, encode = "multipart") # "form"
