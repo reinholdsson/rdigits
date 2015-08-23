@@ -23,9 +23,9 @@ DigitsConnection <- R6Class("Digits Connection",
       st_code <- status_code(res)
       if (st_code != 200) {
         warning(st_code, ', ', x$error$type, ': ', x$error$message, '\n => ', image_url)
-        output <- data.frame(label = NA, value = NA)
+        output <- data.frame(label = NA, value = NA, stringsAsFactors = F)
       } else {
-        output <- do.call('rbind', lapply(x$predictions, function(i) data.frame(label = i[[1]], value = i[[2]])))
+        output <- do.call('rbind', lapply(x$predictions, function(i) data.frame(label = i[[1]], value = i[[2]], stringsAsFactors = F)))
       }
       output <- cbind(path = image_url, output)
       return(output)
