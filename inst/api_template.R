@@ -4,19 +4,19 @@ library(data.table)
 
 #' @get /jobs
 jobs <- function() {
-  list.files('{{server_path}}')
+  list.files(file.path('{{server_path}}', 'jobs'))
 }
 
 #' @get /data
 #' data.table::rbindlist(httr::content(httr::GET('http://localhost:8000/data?job=job1')))
 data <- function(job) {  # data => input data
-  txt_file <- function(x) file.path('{{server_path}}', job, paste0(x, '.txt'))
-  read_job_file <- function(type, col.names = c('path', 'label_seq_id')) {
+  txt_file <- function(x) file.path('{{server_path}}', 'jobs', job, paste0(x, '.txt'))
+  read_job_file <- function(type, col.names = c('file', 'label_seq_id')) {
     if (file.exists(txt_file(type))) {
       res <- data.table::fread(txt_file(type))
       colnames(res) <- col.names
       res <- cbind(type = type, res)
-
+      #res[, path := file.path('{{server_path}}path)]
       res
     } else NULL
   }

@@ -4,7 +4,9 @@
 #'
 #' @param host digits server host, e.g. localhost
 #' @param port digits server port, e.g. 5000
-start_api <- function(server_path = '~/Desktop/digits', host = 'localhost', port = 5000) {
+#'
+#' @export
+start_api <- function(server_path = '/media/reinholdsson/data/digits', host = 'localhost', port = 5000) {
   require(plumber)
   require(whisker)
   file_tmpl <- file.path(system.file(package = 'rdigits'), 'api_template.R')
