@@ -63,7 +63,7 @@ DigitsConnection <- R6Class("Digits Connection",
       }
 
       unique_levels <- sort(unique(labels))
-      labels_num <- sapply(labels, function(i) grep(i, un_lvl) - 1)  # seq starting from 0
+      labels_num <- sapply(labels, function(i) grep(i, unique_levels) - 1)  # seq starting from 0
 
       # browser()
       data <- data.frame(images, labels_num)
